@@ -1,7 +1,50 @@
 @import url(./reset.css);
 
-.wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+.title-container,
+.like-foodlist-container,
+.like-singer,
+.like-song,
+.info-wrap,
+.contact-container {
+  margin: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+ul > li {
+  margin: 10px 0;
+}
+
+table {
+  border-collapse: collapse; /* 테두리 겹침 방지 */
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f4f4f4;
+}
+
+.how-to-table {
+  margin: 10px;
+}
+
+.contact-box {
+  min-width: 100px;
 }
