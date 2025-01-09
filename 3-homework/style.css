@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+.google-app {
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.gb-bar {
+  display: flex;
+  align-items: center;
+}
+
+.div-second {
+  display: flex;
+  align-items: center;
+}
+.div-second > img {
+  cursor: pointer;
+}
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+}
+
+a {
+  margin: 0 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.google-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.google-logo {
+  margin: 0;
+}
+.google-logo > img {
+  height: 150px;
+  aspect-ratio: auto 272 / 150;
+}
+.search-app {
+  width: 40px;
+  height: 40px;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-box {
+  width: 450px;
+  height: 46px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding-left: 40px;
+  padding-right: 120px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; /* 인풋창과 버튼 간격을 위한 여백 */
+}
+.btn-container > button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, Apple SD Gothic Neo, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    border: 1px solid #dadce0;
+  }
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.keyboard {
+  position: absolute;
+  top: 50%;
+  right: 90px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 18px;
+  cursor: pointer;
+}
+.microphone {
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 18px;
+  cursor: pointer;
+}
+.expand {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+footer {
+  box-sizing: border-box;
+  margin-top: auto;
+}
+.footer-wrap {
+  background: #f2f2f2;
+}
+
+.country {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+}
+.list {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
