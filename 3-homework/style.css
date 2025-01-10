@@ -89,7 +89,7 @@ a {
 .btn-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px; /* 인풋창과 버튼 간격을 위한 여백 */
+  margin-top: 10px; /* 인풋창과 버튼 간격을 위한 여백 */
 }
 .btn-container > button {
   background-color: #f8f9fa;
